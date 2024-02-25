@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 20px;
+}
+.Toggle {
+  width: 100px;
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 100vh;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.circle {
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: aliceblue;
+  border-radius: 100vh;
+  transition: all 0.2s linear;
+}
+.spinner {
+  transform: translateX(50px);
+}
+.active {
+  background-color: dodgerblue;
+}

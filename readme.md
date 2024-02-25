@@ -1,2 +1,2 @@
 - React developer tool
-- Redux DevTool
+- Redux DevToolt 
