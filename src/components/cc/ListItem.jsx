@@ -1,5 +1,5 @@
 import Item from "./Item";
-import { data } from "../data";
+import { data } from "../../data";
 
 const ListItem = () => {
   return (
