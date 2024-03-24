@@ -18,7 +18,7 @@ const FormikLearn = () => {
             }}
         >
             <Form className="m-5 flex flex-col gap-5 max-w-[300px]">
-                <Field type="name" className="border border-gray-400 rounded-md py-4 px-8" name="name" placeholder="Name" />
+                <Field type="name" className="border border-gray-400 rounded-md p-3 " name="name" placeholder="Name" />
                 <ErrorMessage name="name" className="text-sm text-red-500" component="div" />
                 <button type="submit" className="py-4 px-8 bg-blue-900 text-white rounded-md">Submit</button>
             </Form>

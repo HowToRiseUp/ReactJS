@@ -1,12 +1,12 @@
 import "./App.css";
 import { GlobalStyle } from "./globalStyles"; // Assuming this is where you export your GlobalStyle component
-import FormikLearn from "./components/form/FormikLearn";
+import SignUpFormik from "./components/form/SignUpFormik";
 const App = () => {
 
   return (
     <div>
       <GlobalStyle></GlobalStyle>
-      <FormikLearn></FormikLearn>
+      <SignUpFormik></SignUpFormik>
     </div>
   );
 };
