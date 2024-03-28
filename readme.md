@@ -1,5 +1,6 @@
 ![alt text](image.png)
 
+- vite
 - node 16.13.0
 - React developer tool
 - Redux DevToolt
@@ -11,9 +12,15 @@
 - \* Styling trong React
 - \* React hook useEffect
 - \* ref và custom hooks
-- ###### \* Form
-  -![alt text](image-1.png)
+- ##### \* Form
+
+  - Sign up with Formik
+    ![alt text](image-1.png)
+  - Sign up with React hook Form
+
 - Fragments, Portal
+  
+  ![alt text](image-2.png)
 - Context và Router
 - Redux toàn tập
 - NextJS
