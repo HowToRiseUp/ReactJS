@@ -14,7 +14,6 @@ const CountProvider = (prop) => {
 const Context = () => {
     return (
         <>
-
             <CountProvider>
                 <CountBtn></CountBtn>
                 <Count></Count>
