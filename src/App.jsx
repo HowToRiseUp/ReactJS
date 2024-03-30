@@ -1,12 +1,12 @@
 import "./App.css";
-import Context from "./components/context/Context";
+import UserContext from "./context/UserContext";
 import { GlobalStyle } from "./globalStyles"; // Assuming this is where you export your GlobalStyle component
 const App = () => {
 
   return (
     <>
       <GlobalStyle></GlobalStyle>
-      <Context></Context>
+      <UserContext></UserContext>
     </>
   );
 };
