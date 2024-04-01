@@ -1,15 +1,18 @@
 import "./App.css";
-import Products from "./components/layout/Products";
-import { GalleryProvider } from "./context/gallery-context";
+import Accordion from "./components/addvanced-react/accordion/Accordion";
 import { GlobalStyle } from "./globalStyles"; // Assuming this is where you export your GlobalStyle component
 const App = () => {
 
   return (
     <>
       <GlobalStyle></GlobalStyle>
-      <GalleryProvider>
-        <Products></Products>
-      </GalleryProvider>
+      <div className="h-screen flex flex-col justify-center items-center">
+
+        <Accordion></Accordion>
+        <Accordion></Accordion>
+        <Accordion></Accordion>
+        <Accordion></Accordion>
+      </div>
     </>
   );
 };

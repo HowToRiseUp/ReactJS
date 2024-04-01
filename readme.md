@@ -11,6 +11,8 @@
 - \* react hook useState
 - \* Styling trong React
 - \* React hook useEffect
+  - accordion
+    ![alt text](image-3.png)
 - \* ref và custom hooks
 - ##### \* Form
 
@@ -19,8 +21,10 @@
   - Sign up with React hook Form
 
 - Fragments, Portal
-  
+
   ![alt text](image-2.png)
+
 - Context và Router
-- Redux toàn tập
+
+- Redux
 - NextJS
